@@ -91,13 +91,3 @@
   color: var(--dark);
   font-family: var(--font-archivo);
 }
-@media screen and (max-width: 750px) {
-  .reviewcard {
-    min-width: 100%;
-  }
-}
-@media screen and (max-width: 450px) {
-  .symbol-library {
-    flex-wrap: wrap;
-  }
-}

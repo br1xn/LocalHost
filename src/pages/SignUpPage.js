@@ -25,8 +25,8 @@ const SignUpPage = () => {
         avatar="/avatar1@2x.png"
         showLoginSection={false}
       />
-      <main className="login-sections">
-        <div className="form-wrapper">
+      <main className="login-sections1">
+        <div className="form-container">
           <div className="form">
             <div className="account-creation">
               <h2 className="create-account">Create Account</h2>
@@ -57,7 +57,7 @@ const SignUpPage = () => {
                       }}
                     />
                     <TextField
-                      className="password"
+                      className="email"
                       placeholder="Password"
                       variant="outlined"
                       type="password"
@@ -81,7 +81,7 @@ const SignUpPage = () => {
                       }}
                     />
                     <TextField
-                      className="confirm-password"
+                      className="email"
                       placeholder="Confirm password"
                       variant="outlined"
                       type="password"

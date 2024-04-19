@@ -14,52 +14,6 @@
 .living-space {
   font-family: var(--font-archivo);
 }
-.living-space-this-charming-ca {
-  margin-block-start: 0;
-  margin-block-end: 17px;
-}
-.bedrooms {
-  font-family: var(--font-archivo);
-}
-.bedrooms-with-3-beautifully-a {
-  margin-block-start: 0;
-  margin-block-end: 17px;
-}
-.kitchen-dining {
-  font-family: var(--font-archivo);
-}
-.kitchen-dining-our-fully-eq {
-  margin-block-start: 0;
-  margin-block-end: 17px;
-}
-.bathrooms {
-  font-family: var(--font-archivo);
-}
-.bathrooms-2-modern-bathrooms {
-  margin-block-start: 0;
-  margin-block-end: 17px;
-}
-.outdoor-space {
-  font-family: var(--font-archivo);
-}
-.outdoor-space-step-outside-to {
-  margin-block-start: 0;
-  margin-block-end: 17px;
-}
-.location {
-  font-family: var(--font-archivo);
-}
-.location-located-just-minutes {
-  margin-block-start: 0;
-  margin-block-end: 17px;
-}
-.hosted-with-love {
-  font-family: var(--font-archivo);
-}
-.hosted-with-love-we-take-prid {
-  margin-block-start: 0;
-  margin-block-end: 17px;
-}
 .come-be-our {
   margin: 0;
 }
@@ -127,55 +81,19 @@
   align-items: center;
   gap: var(--gap-xl);
 }
-.detailscard-child {
-  height: 60px;
-  width: 60px;
-  position: relative;
-  border-radius: var(--br-5xs);
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.check-in-with,
+.free-cancellation,
 .self-check-in {
   position: relative;
-  letter-spacing: 0.02em;
-}
-.self-check-in {
   line-height: 150%;
   font-weight: 600;
+}
+.self-check-in {
+  letter-spacing: 0.02em;
   display: inline-block;
   min-width: 111px;
 }
-.check-in-with {
-  font-size: var(--font-size-base);
-  color: var(--color-gray-200);
-}
-.detailscard1,
-.self-check-in-parent {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-11xs);
-}
-.detailscard1 {
-  flex-direction: row;
-  align-items: center;
-  gap: var(--gap-xl);
-}
-.detailscard-item {
-  height: 60px;
-  width: 60px;
-  position: relative;
-  border-radius: var(--br-5xs);
-  overflow: hidden;
-  flex-shrink: 0;
-}
 .free-cancellation {
-  position: relative;
   letter-spacing: 0.35px;
-  line-height: 150%;
-  font-weight: 600;
 }
 .cancel-anytime {
   position: relative;
@@ -184,19 +102,6 @@
   color: var(--color-gray-200);
   display: inline-block;
   min-width: 115px;
-}
-.detailscard2,
-.free-cancellation-parent {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-11xs);
-}
-.detailscard2 {
-  flex-direction: row;
-  align-items: center;
-  gap: var(--gap-xl);
 }
 .description-content,
 .listing-description,
@@ -231,32 +136,4 @@
   font-size: var(--font-size-5xl);
   color: var(--dark);
   font-family: var(--font-archivo);
-}
-@media screen and (max-width: 1275px) {
-  .property-amenities {
-    flex: 1;
-    padding-right: 0;
-    box-sizing: border-box;
-  }
-  .description-content {
-    flex-wrap: wrap;
-  }
-}
-@media screen and (max-width: 750px) {
-  .introduction,
-  .property-amenities {
-    min-width: 100%;
-  }
-  .description-content {
-    gap: var(--gap-xl);
-  }
-}
-@media screen and (max-width: 450px) {
-  .about-this-home {
-    font-size: var(--font-size-lgi);
-  }
-  .detailscard,
-  .detailscard1 {
-    flex-wrap: wrap;
-  }
 }

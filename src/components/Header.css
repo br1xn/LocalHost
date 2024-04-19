@@ -76,18 +76,3 @@
   color: var(--color-black);
   font-family: var(--font-archivo);
 }
-@media screen and (max-width: 1275px) {
-  .header-content {
-    max-width: 100%;
-  }
-}
-@media screen and (max-width: 750px) {
-  .nav-links {
-    display: none;
-  }
-  .header {
-    padding-left: var(--padding-21xl);
-    padding-right: var(--padding-21xl);
-    box-sizing: border-box;
-  }
-}

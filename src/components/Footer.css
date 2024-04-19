@@ -18,10 +18,7 @@
   min-width: 63px;
 }
 .aircover,
-.cencellation-options,
-.combating-discrimination,
-.report-neighbourhood-concern,
-.supporting-people-with {
+.combating-discrimination {
   position: relative;
 }
 .support-parent {
@@ -36,49 +33,28 @@
   min-width: 315px;
   max-width: 100%;
 }
-.hosting,
-.local-home {
-  position: relative;
-  display: inline-block;
-}
 .hosting {
   margin: 0;
+  position: relative;
   font-size: var(--font-size-xl);
   font-weight: 600;
   font-family: inherit;
+  display: inline-block;
   min-width: 73px;
 }
+.cover-for-hosts,
 .local-home {
+  position: relative;
+  display: inline-block;
   min-width: 83px;
 }
 .cover-for-hosts {
-  display: inline-block;
   min-width: 107px;
 }
-.cover-for-hosts,
-.hosting-resources {
-  position: relative;
-}
 .community-forum {
-  display: inline-block;
   min-width: 128px;
 }
 .community-forum,
-.hosting-responsibly {
-  position: relative;
-}
-.hosting-parent {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-xl) var(--padding-xl) 0 0;
-  box-sizing: border-box;
-  gap: var(--gap-sm);
-  min-width: 315px;
-  max-width: 100%;
-}
 .localhost,
 .newsroom {
   position: relative;
@@ -113,18 +89,6 @@
 }
 .gift-cards {
   min-width: 69px;
-}
-.localhost-parent {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-xl) var(--padding-xl) 0 0;
-  box-sizing: border-box;
-  gap: var(--gap-sm);
-  min-width: 315px;
-  max-width: 100%;
 }
 .footer,
 .footer-inner,
@@ -161,26 +125,4 @@
   font-size: var(--font-size-base);
   color: var(--dark);
   font-family: var(--font-archivo);
-}
-@media screen and (max-width: 1275px) {
-  .frame-group {
-    flex-wrap: wrap;
-  }
-  .footer-inner {
-    max-width: 100%;
-  }
-}
-@media screen and (max-width: 750px) {
-  .footer {
-    padding-left: var(--padding-21xl);
-    padding-right: var(--padding-21xl);
-    box-sizing: border-box;
-  }
-}
-@media screen and (max-width: 450px) {
-  .hosting,
-  .localhost,
-  .support {
-    font-size: var(--font-size-base);
-  }
 }

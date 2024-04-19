@@ -44,7 +44,7 @@ const Form = () => {
                 }}
               />
               <TextField
-                className="password1"
+                className="email1"
                 placeholder="Password"
                 variant="outlined"
                 InputProps={{
@@ -64,7 +64,7 @@ const Form = () => {
               />
             </div>
             <Button
-              className="search-flights-button3"
+              className="search-flights-button1"
               disableElevation={true}
               variant="contained"
               sx={{

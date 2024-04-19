@@ -33,25 +33,25 @@ const Footer = ({ propMargin, propMargin1, propMargin2 }) => {
             <div className="combating-discrimination">
               Combating discrimination
             </div>
-            <div className="supporting-people-with">
+            <div className="combating-discrimination">
               Supporting people with disabilities
             </div>
-            <div className="cencellation-options">Cencellation options</div>
-            <div className="report-neighbourhood-concern">
+            <div className="combating-discrimination">Cencellation options</div>
+            <div className="combating-discrimination">
               Report neighbourhood concern
             </div>
           </div>
-          <div className="hosting-parent">
+          <div className="support-parent">
             <h3 className="hosting" style={hostingStyle}>
               Hosting
             </h3>
             <div className="local-home">Local home</div>
             <div className="cover-for-hosts">Cover for hosts</div>
-            <div className="hosting-resources">Hosting resources</div>
+            <div className="combating-discrimination">Hosting resources</div>
             <div className="community-forum">Community forum</div>
-            <div className="hosting-responsibly">Hosting responsibly</div>
+            <div className="combating-discrimination">Hosting responsibly</div>
           </div>
-          <div className="localhost-parent">
+          <div className="support-parent">
             <h3 className="localhost" style={localhostStyle}>
               Localhost
             </h3>

@@ -111,7 +111,7 @@ const HeroContainer = () => {
                     }}
                   />
                 </div>
-                <div className="container">
+                <div className="wrapper">
                   <DatePicker
                     value={frameDateTimePicker1Value}
                     onChange={(newValue) => {

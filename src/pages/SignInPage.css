@@ -1,21 +1,21 @@
-.form-container,
-.login-sections1 {
+.form-wrapper,
+.login-sections {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   max-width: 100%;
 }
-.form-container {
+.form-wrapper {
   width: 589px;
   border-radius: var(--br-5xs);
   overflow: hidden;
   flex-shrink: 0;
   justify-content: flex-start;
 }
-.login-sections1 {
+.login-sections {
   align-self: stretch;
   justify-content: center;
-  padding: var(--padding-184xl-5) var(--padding-xl);
+  padding: 203.5px var(--padding-xl);
   box-sizing: border-box;
   background-image: url(/public/login-sections1@3x.png);
   background-size: cover;
@@ -24,25 +24,25 @@
   z-index: 1;
   margin-top: -0.1px;
 }
-.contact-us3,
-.localhost-inc-all3,
-.privacy-policy3,
-.terms-conditions3 {
+.contact-us1,
+.localhost-inc-all1,
+.privacy-policy1,
+.terms-conditions1 {
   position: relative;
   line-height: 17px;
   font-weight: 300;
 }
-.contact-us3,
-.privacy-policy3,
-.terms-conditions3 {
+.contact-us1,
+.privacy-policy1,
+.terms-conditions1 {
   display: inline-block;
   min-width: 85px;
 }
-.contact-us3,
-.terms-conditions3 {
+.contact-us1,
+.terms-conditions1 {
   min-width: 120px;
 }
-.contact-us3 {
+.contact-us1 {
   min-width: 67px;
 }
 .privacy-policy-parent {
@@ -68,14 +68,14 @@
   width: 100%;
   justify-content: center;
 }
-.band3,
+.band1,
 .sign-in-page {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   box-sizing: border-box;
 }
-.band3 {
+.band1 {
   align-self: stretch;
   border-top: 1px solid var(--light-grey-border);
   align-items: center;
@@ -100,36 +100,4 @@
 }
 .sign-in-page:hover {
   background: linear-gradient(#fff, #fff), #87550a;
-}
-@media screen and (max-width: 1275px) {
-  .band-child,
-  .localhost-inc-all-rights-res-group {
-    max-width: 100%;
-  }
-}
-@media screen and (max-width: 1100px) {
-  .login-sections1 {
-    padding-bottom: 132px;
-    box-sizing: border-box;
-  }
-}
-@media screen and (max-width: 750px) {
-  .login-sections1 {
-    gap: var(--gap-9xl);
-    padding-bottom: 86px;
-    box-sizing: border-box;
-  }
-  .localhost-inc-all-rights-res-group {
-    flex-wrap: wrap;
-  }
-  .band3 {
-    padding-left: var(--padding-21xl);
-    padding-right: var(--padding-21xl);
-    box-sizing: border-box;
-  }
-}
-@media screen and (max-width: 450px) {
-  .privacy-policy-parent {
-    flex-wrap: wrap;
-  }
 }
