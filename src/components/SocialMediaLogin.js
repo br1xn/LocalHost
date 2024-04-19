@@ -10,12 +10,12 @@ const SocialMediaLogin = ({ orSignUpWith, image, image1, image2 }) => {
           <div className="text">Google</div>
         </div>
         <div className="social-login1">
-          <img className="image-icon" alt="" src={image1} />
+          <img className="image-icon1" alt="" src={image1} />
           <div className="text1">Facebook</div>
         </div>
         <div className="social-login2">
-          <img className="image-icon" alt="" src={image2} />
-          <div className="text">Apple</div>
+          <img className="image-icon2" alt="" src={image2} />
+          <div className="text2">Apple</div>
         </div>
       </div>
     </div>

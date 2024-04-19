@@ -17,7 +17,9 @@ const ListingItem = ({
         <img className="superhost-icon" alt="" src="/superhost-icon.svg" />
         <div className="superhost">Superhost</div>
       </div>
-      <img className="heart-icon" loading="lazy" alt="" src={heartIcon} />
+      <div className="wrapper-heart-icon">
+        <img className="heart-icon" loading="lazy" alt="" src={heartIcon} />
+      </div>
       <div className="item-details">
         <div className="listing-info">
           <div className="listing-cont">

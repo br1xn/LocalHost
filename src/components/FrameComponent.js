@@ -19,19 +19,19 @@ const FrameComponent = () => {
             src="/frame-46@2x.png"
           />
           <img
-            className="content-cards-icon"
+            className="content-cards-icon1"
             loading="lazy"
             alt=""
             src="/frame-47@2x.png"
           />
           <img
-            className="content-cards-icon"
+            className="content-cards-icon2"
             loading="lazy"
             alt=""
             src="/frame-48@2x.png"
           />
           <img
-            className="content-cards-icon"
+            className="content-cards-icon3"
             loading="lazy"
             alt=""
             src="/frame-49@2x.png"
@@ -103,7 +103,7 @@ const FrameComponent = () => {
             </div>
           </div>
           <Button
-            className="search-flights-button2"
+            className="search-flights-button1"
             disableElevation={true}
             variant="contained"
             sx={{

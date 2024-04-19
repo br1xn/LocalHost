@@ -48,3 +48,11 @@
   color: var(--dark);
   font-family: var(--font-archivo);
 }
+@media screen and (max-width: 450px) {
+  .reviews1 {
+    font-size: var(--font-size-lgi);
+  }
+  .reviews-parent {
+    flex-wrap: wrap;
+  }
+}

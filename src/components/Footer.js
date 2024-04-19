@@ -1,24 +1,24 @@
 import { useMemo } from "react";
 import "./Footer.css";
 
-const Footer = ({ propMargin, propMargin1, propMargin2 }) => {
+const Footer = ({ supportMargin, hostingMargin, localhostMargin }) => {
   const supportStyle = useMemo(() => {
     return {
-      margin: propMargin,
+      margin: supportMargin,
     };
-  }, [propMargin]);
+  }, [supportMargin]);
 
   const hostingStyle = useMemo(() => {
     return {
-      margin: propMargin1,
+      margin: hostingMargin,
     };
-  }, [propMargin1]);
+  }, [hostingMargin]);
 
   const localhostStyle = useMemo(() => {
     return {
-      margin: propMargin2,
+      margin: localhostMargin,
     };
-  }, [propMargin2]);
+  }, [localhostMargin]);
 
   return (
     <footer className="footer">
@@ -33,25 +33,25 @@ const Footer = ({ propMargin, propMargin1, propMargin2 }) => {
             <div className="combating-discrimination">
               Combating discrimination
             </div>
-            <div className="combating-discrimination">
+            <div className="supporting-people-with">
               Supporting people with disabilities
             </div>
-            <div className="combating-discrimination">Cencellation options</div>
-            <div className="combating-discrimination">
+            <div className="cencellation-options">Cencellation options</div>
+            <div className="report-neighbourhood-concern">
               Report neighbourhood concern
             </div>
           </div>
-          <div className="support-parent">
+          <div className="hosting-parent">
             <h3 className="hosting" style={hostingStyle}>
               Hosting
             </h3>
             <div className="local-home">Local home</div>
             <div className="cover-for-hosts">Cover for hosts</div>
-            <div className="combating-discrimination">Hosting resources</div>
+            <div className="hosting-resources">Hosting resources</div>
             <div className="community-forum">Community forum</div>
-            <div className="combating-discrimination">Hosting responsibly</div>
+            <div className="hosting-responsibly">Hosting responsibly</div>
           </div>
-          <div className="support-parent">
+          <div className="localhost-parent">
             <h3 className="localhost" style={localhostStyle}>
               Localhost
             </h3>

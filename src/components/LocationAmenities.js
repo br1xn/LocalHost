@@ -29,7 +29,7 @@ const LocationAmenities = () => {
               </div>
               <div className="property-features-icons">
                 <img
-                  className="tablertools-kitchen-2-icon"
+                  className="material-symbolsnest-cam-iq-o-icon"
                   loading="lazy"
                   alt=""
                   src="/materialsymbolsnestcamiqoutdooroutline.svg"
@@ -38,9 +38,9 @@ const LocationAmenities = () => {
                   Security cameras on property
                 </div>
               </div>
-              <div className="amenity-symbols">
+              <div className="connectivity-amenities">
                 <img
-                  className="tablertools-kitchen-2-icon"
+                  className="ionwifi-icon"
                   loading="lazy"
                   alt=""
                   src="/ionwifi.svg"
@@ -49,36 +49,36 @@ const LocationAmenities = () => {
               </div>
             </div>
             <div className="amenitiessection2">
-              <div className="amenity-symbols">
+              <div className="phcar-parent">
                 <img
-                  className="tablertools-kitchen-2-icon"
+                  className="phcar-icon"
                   loading="lazy"
                   alt=""
                   src="/phcar.svg"
                 />
                 <div className="free-parking">Free parking</div>
               </div>
-              <div className="amenity-symbols">
+              <div className="cilshower-parent">
                 <img
-                  className="tablertools-kitchen-2-icon"
+                  className="cilshower-icon"
                   loading="lazy"
                   alt=""
                   src="/cilshower.svg"
                 />
                 <div className="outdoor-shower">Outdoor shower</div>
               </div>
-              <div className="amenity-symbols">
+              <div className="material-symbolswater-voc-out-parent">
                 <img
-                  className="tablertools-kitchen-2-icon"
+                  className="material-symbolswater-voc-out-icon"
                   loading="lazy"
                   alt=""
                   src="/materialsymbolswatervocoutlinerounded.svg"
                 />
                 <div className="hot-water">Hot water</div>
               </div>
-              <div className="amenity-symbols">
+              <div className="covidpersonal-hygiene-hand-li-parent">
                 <img
-                  className="tablertools-kitchen-2-icon"
+                  className="covidpersonal-hygiene-hand-li-icon"
                   loading="lazy"
                   alt=""
                   src="/covidpersonalhygienehandliquidsoap.svg"
@@ -87,35 +87,35 @@ const LocationAmenities = () => {
               </div>
             </div>
             <div className="amenitiessection3">
-              <div className="amenity-symbols">
+              <div className="phfire-extinguisher-parent">
                 <img
-                  className="tablertools-kitchen-2-icon"
+                  className="phfire-extinguisher-icon"
                   loading="lazy"
                   alt=""
                   src="/phfireextinguisher.svg"
                 />
                 <div className="fire-extinguisher">Fire Extinguisher</div>
               </div>
-              <div className="amenity-symbols">
+              <div className="streamlinefood-kitchenware-re-parent">
                 <img
-                  className="tablertools-kitchen-2-icon"
+                  className="streamlinefood-kitchenware-re-icon"
                   alt=""
                   src="/streamlinefoodkitchenwarerefrigeratorfridgecookappliancescookingnutritionfreezerappliancefood.svg"
                 />
                 <div className="freezer">Freezer</div>
               </div>
-              <div className="amenity-symbols">
+              <div className="material-symbolscoffee-maker-parent">
                 <img
-                  className="tablertools-kitchen-2-icon"
+                  className="material-symbolscoffee-maker-icon"
                   loading="lazy"
                   alt=""
                   src="/materialsymbolscoffeemakeroutline.svg"
                 />
                 <div className="coffee-maker">Coffee Maker</div>
               </div>
-              <div className="amenity-symbols">
+              <div className="mdistove-parent">
                 <img
-                  className="tablertools-kitchen-2-icon"
+                  className="mdistove-icon"
                   loading="lazy"
                   alt=""
                   src="/mdistove.svg"
@@ -125,7 +125,7 @@ const LocationAmenities = () => {
             </div>
           </div>
           <Button
-            className="search-flights-button3"
+            className="search-flights-button2"
             disableElevation={true}
             variant="outlined"
             sx={{
@@ -174,68 +174,80 @@ const LocationAmenities = () => {
                   </div>
                 </div>
                 <div className="sun-group">
-                  <div className="c">Sun</div>
-                  <div className="c">27 Aug</div>
+                  <div className="sun">Sun</div>
+                  <div className="aug">27 Aug</div>
                 </div>
               </div>
-              <div className="frame-parent6">
-                <div className="sun-parent">
-                  <img className="sun-icon" alt="" src="/suncloud-1.svg" />
-                  <div className="c-wrapper">
-                    <b className="c">22°C</b>
+              <div className="frame-parent7">
+                <div className="suncloud-parent">
+                  <img
+                    className="suncloud-icon1"
+                    alt=""
+                    src="/suncloud-1.svg"
+                  />
+                  <div className="c-container">
+                    <b className="c1">22°C</b>
                   </div>
                 </div>
-                <div className="sun-group">
-                  <div className="c">Mon</div>
-                  <div className="c">28 Aug</div>
+                <div className="mon-parent">
+                  <div className="mon">Mon</div>
+                  <div className="aug1">28 Aug</div>
                 </div>
               </div>
-              <div className="frame-parent6">
-                <div className="sun-parent">
-                  <img className="sun-icon" alt="" src="/sun.svg" />
-                  <div className="c-wrapper">
-                    <b className="c">23°C</b>
+              <div className="frame-parent8">
+                <div className="sun-container">
+                  <img className="sun-icon1" alt="" src="/sun.svg" />
+                  <div className="c-frame">
+                    <b className="c2">23°C</b>
                   </div>
                 </div>
-                <div className="sun-group">
-                  <div className="c">Tue</div>
-                  <div className="c">29 Aug</div>
+                <div className="tue-parent">
+                  <div className="tue">Tue</div>
+                  <div className="aug2">29 Aug</div>
                 </div>
               </div>
-              <div className="frame-parent6">
-                <div className="sun-parent">
-                  <img className="sun-icon" alt="" src="/suncloud-1.svg" />
-                  <div className="c-wrapper">
-                    <b className="c">20°C</b>
+              <div className="frame-parent9">
+                <div className="suncloud-group">
+                  <img
+                    className="suncloud-icon2"
+                    alt=""
+                    src="/suncloud-1.svg"
+                  />
+                  <div className="c-wrapper1">
+                    <b className="c3">20°C</b>
                   </div>
                 </div>
-                <div className="sun-group">
-                  <div className="c">Wed</div>
-                  <div className="c">30 Aug</div>
+                <div className="wed-parent">
+                  <div className="wed">Wed</div>
+                  <div className="aug3">30 Aug</div>
                 </div>
               </div>
-              <div className="frame-parent6">
-                <div className="sun-parent">
-                  <img className="sun-icon" alt="" src="/suncloud-1.svg" />
-                  <div className="c-wrapper">
-                    <b className="c">19°C</b>
+              <div className="frame-parent10">
+                <div className="suncloud-container">
+                  <img
+                    className="suncloud-icon3"
+                    alt=""
+                    src="/suncloud-1.svg"
+                  />
+                  <div className="c-wrapper2">
+                    <b className="c4">19°C</b>
                   </div>
                 </div>
-                <div className="sun-group">
-                  <div className="c">Thu</div>
-                  <div className="c">31 Aug</div>
+                <div className="thu-parent">
+                  <div className="thu">Thu</div>
+                  <div className="aug4">31 Aug</div>
                 </div>
               </div>
-              <div className="frame-parent6">
-                <div className="sun-parent">
-                  <img className="sun-icon" alt="" src="/sun.svg" />
-                  <div className="c-wrapper">
-                    <b className="c">24°C</b>
+              <div className="frame-parent11">
+                <div className="sun-parent1">
+                  <img className="sun-icon2" alt="" src="/sun.svg" />
+                  <div className="c-wrapper3">
+                    <b className="c5">24°C</b>
                   </div>
                 </div>
-                <div className="sun-group">
-                  <div className="c">Fri</div>
-                  <div className="c">1 Sep</div>
+                <div className="fri-parent">
+                  <div className="fri">Fri</div>
+                  <div className="sep">1 Sep</div>
                 </div>
               </div>
             </div>

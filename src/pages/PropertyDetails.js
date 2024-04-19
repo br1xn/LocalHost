@@ -24,17 +24,21 @@ const PropertyDetails = () => {
         <ReviewSection />
         <SimilarStaysSection />
       </main>
-      <Footer propMargin="unset" propMargin1="unset" propMargin2="unset" />
-      <div className="band3">
+      <Footer
+        supportMargin="unset"
+        hostingMargin="unset"
+        localhostMargin="unset"
+      />
+      <div className="band1">
         <div className="bar-content">
           <div className="copyright-and-legal">
-            <div className="localhost-inc-all3">
+            <div className="localhost-inc-all1">
               © 2023 Localhost, Inc. All Rights Reserved
             </div>
             <div className="legal-links">
-              <div className="privacy-policy3">Privacy Policy</div>
-              <div className="terms-conditions3">{`Terms & Conditions`}</div>
-              <div className="contact-us3">Contact us</div>
+              <div className="privacy-policy1">Privacy Policy</div>
+              <div className="terms-conditions1">{`Terms & Conditions`}</div>
+              <div className="contact-us1">Contact us</div>
             </div>
           </div>
         </div>

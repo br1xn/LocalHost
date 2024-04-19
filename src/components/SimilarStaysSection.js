@@ -19,13 +19,15 @@ const SimilarStaysSection = () => {
               <img className="vector-icon2" alt="" src="/superhost-icon.svg" />
               <div className="superhost3">Superhost</div>
             </div>
-            <img className="heart-icon3" alt="" src="/hearticon-1.svg" />
+            <div className="wrapper-heart-icon2">
+              <img className="heart-icon3" alt="" src="/hearticon-1.svg" />
+            </div>
           </div>
           <div className="frame-parent13">
             <div className="frame-parent14">
               <div className="urban-loft-parent">
                 <div className="urban-loft">Urban Loft</div>
-                <div className="urban-loft">Urban Loft</div>
+                <div className="urban-loft1">Urban Loft</div>
               </div>
               <div className="group">
                 <div className="div1">4.8</div>

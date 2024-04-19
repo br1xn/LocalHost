@@ -13,7 +13,7 @@ const ListingDescription = () => {
               tranquility of nature's embrace, is designed to provide the
               ultimate relaxing getaway.
             </p>
-            <p className="welcome-to-brightwoods">
+            <p className="living-space-this-charming-ca">
               <b className="living-space">{`Living Space: `}</b>
               <span>
                 This charming cabin boasts a spacious living area adorned with
@@ -23,8 +23,8 @@ const ListingDescription = () => {
                 flat-screen TV, WiFi, and more.
               </span>
             </p>
-            <p className="welcome-to-brightwoods">
-              <b className="living-space">Bedrooms:</b>
+            <p className="bedrooms-with-3-beautifully-a">
+              <b className="bedrooms">Bedrooms:</b>
               <span>
                 {" "}
                 With 3 beautifully appointed bedrooms, our cabin comfortably
@@ -33,8 +33,8 @@ const ListingDescription = () => {
                 ensure a restful slumber.
               </span>
             </p>
-            <p className="welcome-to-brightwoods">
-              <b className="living-space">{`Kitchen & Dining:`}</b>
+            <p className="kitchen-dining-our-fully-eq">
+              <b className="kitchen-dining">{`Kitchen & Dining:`}</b>
               <span>
                 {" "}
                 Our fully-equipped kitchen offers everything you need to prepare
@@ -42,16 +42,16 @@ const ListingDescription = () => {
                 welcoming space to enjoy meals with friends and family.
               </span>
             </p>
-            <p className="welcome-to-brightwoods">
-              <b className="living-space">Bathrooms:</b>
+            <p className="bathrooms-2-modern-bathrooms">
+              <b className="bathrooms">Bathrooms:</b>
               <span>
                 {" "}
                 2 modern bathrooms stocked with fresh towels, toiletries, and
                 all essential amenities add to your convenience.
               </span>
             </p>
-            <p className="welcome-to-brightwoods">
-              <b className="living-space">Outdoor Space:</b>
+            <p className="outdoor-space-step-outside-to">
+              <b className="outdoor-space">Outdoor Space:</b>
               <span>
                 {" "}
                 Step outside to a serene outdoor setting. Whether it's a morning
@@ -59,8 +59,8 @@ const ListingDescription = () => {
                 the fire pit, the beauty of Bridlepath is at your doorstep.
               </span>
             </p>
-            <p className="welcome-to-brightwoods">
-              <b className="living-space">Location:</b>
+            <p className="location-located-just-minutes">
+              <b className="location">Location:</b>
               <span>
                 {" "}
                 Located just minutes from [local attractions, trails, dining,
@@ -68,8 +68,8 @@ const ListingDescription = () => {
                 of the region or simply unwind in seclusion.
               </span>
             </p>
-            <p className="welcome-to-brightwoods">
-              <b className="living-space">Hosted with Love:</b>
+            <p className="hosted-with-love-we-take-prid">
+              <b className="hosted-with-love">Hosted with Love:</b>
               <span>
                 {" "}
                 We take pride in hosting our guests and are committed to making
@@ -100,18 +100,16 @@ const ListingDescription = () => {
               </div>
             </div>
           </div>
-          <div className="detailscard">
-            <img className="amenity-card-rows" alt="" src="/frame-65-1.svg" />
-            <div className="amenity-icons">
+          <div className="detailscard1">
+            <img className="detailscard-child" alt="" src="/frame-65-1.svg" />
+            <div className="self-check-in-parent">
               <div className="self-check-in">Self check-in</div>
-              <div className="a-private-room">
-                Check in with just your phone
-              </div>
+              <div className="check-in-with">Check in with just your phone</div>
             </div>
           </div>
-          <div className="detailscard">
-            <img className="amenity-card-rows" alt="" src="/frame-65-2.svg" />
-            <div className="amenity-icons">
+          <div className="detailscard2">
+            <img className="detailscard-item" alt="" src="/frame-65-2.svg" />
+            <div className="free-cancellation-parent">
               <div className="free-cancellation">Free cancellation</div>
               <div className="cancel-anytime">Cancel anytime</div>
             </div>

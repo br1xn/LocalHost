@@ -12,7 +12,7 @@ const SearchSectionHeader = () => {
           <img className="bento-menu-1-icon" alt="" src="/bento-menu1.svg" />
         </div>
         <div className="layout-buttons1">
-          <img className="bento-menu-1-icon" alt="" src="/map.svg" />
+          <img className="map-icon" alt="" src="/map.svg" />
         </div>
       </div>
     </div>

@@ -1,9 +1,6 @@
-.email1,
-.sign-in {
-  align-self: stretch;
-}
 .sign-in {
   margin: 0;
+  align-self: stretch;
   position: relative;
   font-size: inherit;
   letter-spacing: 0.02em;
@@ -12,9 +9,11 @@
   flex-shrink: 0;
   debug_commit: 1de1738;
 }
-.email1 {
+.email1,
+.password1 {
   border: 0;
   background-color: transparent;
+  align-self: stretch;
   height: 51px;
   font-family: var(--font-archivo);
   font-size: var(--font-size-base);
@@ -29,11 +28,11 @@
   padding: 0;
   gap: var(--gap-base-7);
 }
-.search-flights-button1 {
+.search-flights-button3 {
   width: 160px;
   height: 52px;
 }
-.search-flights-button1:hover {
+.search-flights-button3:hover {
   background-color: var(--color-saddlebrown);
 }
 .form5 {
@@ -91,4 +90,16 @@
   font-size: var(--font-size-7xl);
   color: var(--dark);
   font-family: var(--font-archivo);
+}
+@media screen and (max-width: 750px) {
+  .form3 {
+    gap: var(--gap-lgi);
+    padding: var(--padding-184xl-5) var(--padding-5xl) var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sign-in {
+    font-size: var(--font-size-2xl);
+  }
 }

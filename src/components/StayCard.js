@@ -26,7 +26,9 @@ const StayCard = ({
           <img className="vector-icon1" alt="" src="/superhost-icon.svg" />
           <div className="superhost2">Superhost</div>
         </div>
-        <img className="heart-icon2" alt="" src="/hearticon-1.svg" />
+        <div className="wrapper-heart-icon1">
+          <img className="heart-icon2" alt="" src="/hearticon-1.svg" />
+        </div>
       </div>
       <div className="stay-card-details">
         <div className="stay-card-info">
