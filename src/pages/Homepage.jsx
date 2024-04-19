@@ -65,7 +65,7 @@ const Homepage = () => {
           />
           <ListingItem
             listingImage="/image-3@2x.png"
-            heartIcon="/heart-icon-4.svg"
+            heartIcon="/heart-icon@2x.png"
             listingTitle="Missisuaga Aistream"
             listingSubtitle="Missisauga, Ontario, Canada"
             rating="4.8"
@@ -74,7 +74,7 @@ const Homepage = () => {
           />
           <ListingItem
             listingImage="/image-4@2x.png"
-            heartIcon="/heart-icon-4.svg"
+            heartIcon="/heart-icon@2x.png"
             listingTitle="Niagara Homes"
             listingSubtitle="Niagara, Ontario, Canada"
             rating="4.9"
@@ -83,7 +83,7 @@ const Homepage = () => {
           />
           <ListingItem
             listingImage="/image-5@2x.png"
-            heartIcon="/heart-icon-4.svg"
+            heartIcon="/heart-icon@2x.png"
             listingTitle="Sunny Estate"
             listingSubtitle="Barcort, Ontario Canada"
             rating="5.0"
@@ -92,7 +92,7 @@ const Homepage = () => {
           />
           <ListingItem
             listingImage="/image-6@2x.png"
-            heartIcon="/heart-icon-4.svg"
+            heartIcon="/heart-icon@2x.png"
             listingTitle="Lawrence Hills"
             listingSubtitle="Lawrence, Ontario Canada"
             rating="5.0"
@@ -101,7 +101,7 @@ const Homepage = () => {
           />
           <ListingItem
             listingImage="/image-7@2x.png"
-            heartIcon="/heart-icon-4.svg"
+            heartIcon="/heart-icon@2x.png"
             listingTitle="Simcoe Lake Lodge"
             listingSubtitle="Simcoe, Ontario, Canada"
             rating="5.0"
@@ -110,7 +110,7 @@ const Homepage = () => {
           />
           <ListingItem
             listingImage="/image-8@2x.png"
-            heartIcon="/heart-icon-4.svg"
+            heartIcon="/heart-icon@2x.png"
             listingTitle="Wasaga Beach Home"
             listingSubtitle="Georgina Bay, Ontario, Canada"
             rating="5.0"
@@ -119,7 +119,7 @@ const Homepage = () => {
           />
           <ListingItem
             listingImage="/image-9@2x.png"
-            heartIcon="/heart-icon-4.svg"
+            heartIcon="/heart-icon@2x.png"
             listingTitle="Banff Hills"
             listingSubtitle="Banff, Alberta, Canada"
             rating="5.0"
@@ -128,7 +128,7 @@ const Homepage = () => {
           />
           <ListingItem
             listingImage="/image-10@2x.png"
-            heartIcon="/heart-icon-4.svg"
+            heartIcon="/heart-icon@2x.png"
             listingTitle="Creemore Canada"
             listingSubtitle="Creemore, Alberta, Canada"
             rating="5.0"
@@ -137,7 +137,7 @@ const Homepage = () => {
           />
           <ListingItem
             listingImage="/image-11@2x.png"
-            heartIcon="/heart-icon-4.svg"
+            heartIcon="/heart-icon@2x.png"
             listingTitle="Kawartha Lakes"
             listingSubtitle="Kawartha, Alberta,  Canada"
             rating="5.0"
@@ -146,7 +146,7 @@ const Homepage = () => {
           />
           <ListingItem
             listingImage="/image-12@2x.png"
-            heartIcon="/heart-icon-4.svg"
+            heartIcon="/heart-icon@2x.png"
             listingTitle="Revelstoke Cabin"
             listingSubtitle="Revelstoke, Alberta, Canada"
             rating="5.0"
@@ -155,7 +155,7 @@ const Homepage = () => {
           />
           <ListingItem
             listingImage="/image-13@2x.png"
-            heartIcon="/heart-icon-4.svg"
+            heartIcon="/heart-icon@2x.png"
             listingTitle="Brightwoods Estate"
             listingSubtitle="Brightwoods Estate"
             rating="5.0"
@@ -164,7 +164,7 @@ const Homepage = () => {
           />
           <ListingItem
             listingImage="/image-14@2x.png"
-            heartIcon="/heart-icon-4.svg"
+            heartIcon="/heart-icon@2x.png"
             listingTitle="Brightwoods Estate"
             listingSubtitle="Brightwoods Estate"
             rating="5.0"
