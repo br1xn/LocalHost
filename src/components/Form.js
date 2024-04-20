@@ -18,15 +18,17 @@ const Form = () => {
   }, [navigate]);
 
   return (
-    <div className="form3">
+    <div className="form2">
       <div className="sign-in-parent">
         <h2 className="sign-in">Sign in</h2>
-        <div className="form4">
-          <form className="form5">
+        <div className="form3">
+          <form className="form4">
             <div className="form-fields1">
               <TextField
                 className="email1"
                 placeholder="Email address"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
                 variant="outlined"
                 InputProps={{
                   endAdornment: (
@@ -46,6 +48,8 @@ const Form = () => {
               <TextField
                 className="password1"
                 placeholder="Password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
                 variant="outlined"
                 InputProps={{
                   endAdornment: (
@@ -64,8 +68,9 @@ const Form = () => {
               />
             </div>
             <Button
-              className="search-flights-button3"
+              className="search-flights-button1"
               disableElevation={true}
+              onClick={login}
               variant="contained"
               sx={{
                 textTransform: "none",

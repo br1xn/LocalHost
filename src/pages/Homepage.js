@@ -1,4 +1,4 @@
-import { useCallback } from "react";
+import { useCallback , useState } from "react";
 import { Button } from "@mui/material";
 import Header from "../components/Header";
 import HeroContainer from "../components/HeroContainer";
@@ -8,8 +8,14 @@ import Footer from "../components/Footer";
 import "./Homepage.css";
 
 const Homepage = () => {
+  const [showAll, setShowAll] = useState(false)
+
   const onShowMoreButtonClick = useCallback(() => {
-    //TODO: Please show more List items on click of this button
+    if (!showAll){
+      setShowAll(true)
+    }else{
+      setShowAll(false)
+    }
   }, []);
 
   return (
@@ -18,8 +24,8 @@ const Homepage = () => {
       <HeroContainer />
       <main className="stays-section">
         <SearchSectionHeader />
-        <CardList />
-        <Button
+        <CardList showAll = {showAll} />
+        {showAll &&<Button
           className="show-more-button"
           disableElevation={true}
           variant="outlined"
@@ -36,7 +42,7 @@ const Homepage = () => {
           onClick={onShowMoreButtonClick}
         >
           Show more
-        </Button>
+        </Button>}
       </main>
       <Footer />
       <div className="band">

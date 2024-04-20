@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import ListingItem from "./ListingItem";
 import "./CardList.css";
 
-const CardList = () => {
+const CardList = ({showAll}) => {
   const navigate = useNavigate();
   const [cardState, setCardState] = useState([
     {
@@ -156,9 +156,11 @@ const CardList = () => {
     navigate("/property-details");
   }, [navigate]);
 
+  const croppedCardState = showAll ? cardState : cardState.slice(0,12)
+
   return (
     <section className="homes">
-      {cardState.map((item, index) => (
+      {croppedCardState.map((item, index) => (
         <ListingItem
           key={index}
           listingImage={item.listingImage}
